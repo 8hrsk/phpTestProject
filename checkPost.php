@@ -7,5 +7,6 @@ function hashPassword($password) {
 if (empty($_POST['userName']) || empty($_POST['userMail']) || empty($_POST['userPassword']) || empty($_POST['userMessage'])) {
     echo "All fields are required";
 } else {
-    echo "Hi, $_POST[userName]! Your password have hashed to: ". hashPassword($_POST['userPassword']);
+    header('Location: ./index.php');
+    exit();
 }

@@ -1,4 +1,4 @@
-<form action="checkPost.php" method="post">
+<form action="checkGet.php" method="get">
     <input type="text" name="userName" placeholder="Enter your name" class="form-control mt-1">
     <input type="text" name="userMail" placeholder="Enter your email" class="form-control mt-1">
     <input type="password" name="userPassword" placeholder="Enter your password" class="form-control mt-1">
