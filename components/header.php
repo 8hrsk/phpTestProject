@@ -9,5 +9,6 @@
 </head>
 <body>
     <header>
-       <a href="/">Main</a> | <a href="about.php">About</a>
+       <a href="/">Main</a> | <a href="about.php">About</a> | <a href="contacts.php">Contacts</a>
     </header>
+    <div class="container">
